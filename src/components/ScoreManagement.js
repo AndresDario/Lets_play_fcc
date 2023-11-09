@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
-import { UserContext } from '../context/UserContext';
+// import { UserContext } from '../context/UserContext';
 // import api from '../api';
 import * as api from '../api';
 
 function ScoreManagement() {
-  const { user, updateUserScore } = useContext(UserContext);
+  // const { user, updateUserScore } = useContext(UserContext);
   const [scoreChange, setScoreChange] = useState(0);
   const [error, setError] = useState('');
 
