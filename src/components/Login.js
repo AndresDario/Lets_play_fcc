@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
-// import { AuthContext } from '../context/AuthContext';
+import { AuthContext } from '../context/AuthContext';
 // import api from '../api';
 import * as api from '../api';
 
 function Login() {
-  // const { login } = useContext(AuthContext);
+  const { login } = useContext(AuthContext);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
